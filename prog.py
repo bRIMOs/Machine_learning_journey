@@ -10,7 +10,7 @@ from keras.models import Sequential
 from keras.layers import Dense, Activation, Dropout
 from keras.utils import plot_model
 
-filename = 'heart.csv'
+filepath = 'Data/heart.csv'
 k = 200
 epochs = 4
 batch_size = 100
@@ -67,7 +67,7 @@ def split_dataset(data, k):
     return train, test
 
 
-df = read_from_csv(filename)
+df = read_from_csv(filepath)
 
 sex = df['sex']
 chol = df['chol']
