@@ -34,7 +34,7 @@ class binary_classification_nn(object):
                        batch_size=batch_size,)
  
     def evaluate(self, data, labels, batch_size):
-        return self.model.evaluate(data, labels, batch_size=batch_size)
+        return self.model.evaluate(data, labels, batch_size)
 
 
 
