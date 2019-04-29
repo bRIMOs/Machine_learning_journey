@@ -1,11 +1,11 @@
 # This is a machine learnig learning journey
 # Modules needed are listed in below 
 
-numpy
-matplotlib
-pandas
-tensorflow
-keras
+numpy\n
+matplotlib\n
+pandas\n
+tensorflow\n
+keras\n
 
 # venv path 
 ~/Machine_learning_journey/learn/venv/
