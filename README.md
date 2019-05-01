@@ -1,5 +1,5 @@
-# This is a machine learnig learning journey
-# Modules needed are listed in below 
+Machine learnig
+# Modules used are listed  below 
 
 numpy  
 matplotlib  
