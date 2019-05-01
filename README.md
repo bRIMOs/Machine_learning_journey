@@ -1,4 +1,4 @@
-Machine learnig
+# Machine learning using keras
 # Modules used are listed  below 
 
 numpy  
