@@ -1,4 +1,4 @@
-#python3 venv /learn/bin/
+#! learn/bin/python3
 
 import os
 import numpy as np
@@ -18,9 +18,9 @@ batch_size = 100
 class binary_classification_nn(object):
     def __init__(self):
         self.model = Sequential()
-        self.model.add(Dense(64, activation='relu', input_dim=1))
+        self.model.add(Dense(16, activation='sigmoid', input_dim=1))
         self.model.add(Dropout(0.5))
-        self.model.add(Dense(64, activation='relu'))
+        self.model.add(Dense(16, activation='sigmoid'))
         self.model.add(Dropout(0.5))
         self.model.add(Dense(1, activation='sigmoid'))
 
